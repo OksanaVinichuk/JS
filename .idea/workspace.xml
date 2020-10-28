@@ -54,18 +54,34 @@
       <option name="presentableId" value="Default" />
       <updated>1603806106102</updated>
       <workItem from="1603806107139" duration="4881000" />
-      <workItem from="1603815522372" duration="9944000" />
+      <workItem from="1603815522372" duration="10560000" />
     </task>
+    <task id="LOCAL-00001" summary="DZ 1.-6.">
+      <created>1603878933741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603878933741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DZ 1.-6." />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ 1.-6." />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603815575352">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
     <state x="274" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.740@0.0.1366.740" timestamp="1603815575352" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1603878932902">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.740@0.0.1366.740" timestamp="1603878932902" />
     <state x="926" y="248" key="FileChooserDialogImpl" timestamp="1603816401819">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
@@ -78,6 +94,10 @@
       <screen x="0" y="0" width="1366" height="740" />
     </state>
     <state x="473" y="148" key="Github.UntrackedFilesDialog/0.0.1366.740@0.0.1366.740" timestamp="1603815467363" />
+    <state x="282" y="143" key="Vcs.Push.Dialog.v2" timestamp="1603878938130">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="282" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.740@0.0.1366.740" timestamp="1603878938130" />
     <state x="0" y="0" width="1360" height="715" key="dock-window-1" timestamp="1603816192956">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
