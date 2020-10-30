@@ -97,22 +97,60 @@
 //     let BroPerson = BroLastName + ' ' + BroName + ' ' + BroMiddleName;
 //     console.log(BroPerson); alert(BroPerson); document.write(BroPerson + '<br>');
 
-// Дополнительно:
-//     - Посмотрев на следюующие выражения, скажите, каков будет вывод в консоль
-console.log(132 > 100 && 45 < 12 );
-console.log(34 > 33 && 23 < 90 );
-console.log(99 > 100 && 45 > 12 );
-console.log(132 > 100 || 45 < 12 );
-console.log(111 > 11 || 45 < 111 );
-console.log((111 > 11 || 45 < 111) && (132 > 100 || 45 < 12) );
-console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) );
-console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) );
-console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 ));
-console.log(!!'-1');
-console.log(!!-1);
-console.log(!!'0');
-console.log(!!'null');
-console.log(!!'undefined');
-console.log(!!(3/'owu'));
-console.log((111 > 11 || 45 < 111) ||  !!'0');
-console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 ));
+// // 7. - при помощи prompt() получить 3 числа. Привести их к числовому типу при помощи +. вывести их в консоль.
+// let num1 = +prompt("Напишіть перше число");
+// let num2 = +prompt("Напишіть друге число");
+// let num3 = +prompt("Напишіть третє число");
+// let result = num1 + num2 + num3;
+// console.log(result);
+
+// // 8. - при помощи prompt() получить 4 числа. Привести их к числовому типу при помощи parseInt. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
+
+// let firstNum = prompt("Напишіть перше число");
+// let secondNum = prompt("Напишіть друге число");
+// let thirdNum = prompt("Напишіть третє число");
+// let result = parseInt(firstNum) + parseInt(secondNum) + parseInt(thirdNum);
+// console.log(result);
+
+// // 9. - при помощи prompt()  получить 3 числа с плавающей точекой. при помощи parseFloat привести их к соответсвующему типу. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
+// let first_Num = prompt("Напишіть перше число з плаваючою точкою");
+// let second_Num = prompt("Напишіть друге число з плаваючою точкою");
+// let third_Num = prompt("Напишіть третє число з плаваючою точкою");
+// let result = parseFloat(first_Num) + parseFloat(second_Num) + parseFloat(third_Num);
+// console.log(result);
+
+// // 10. - при помощи prompt()  получить 3 числа с плавающей точекой. Округлить их при помощи Math.round Сложить их между собой записав результат в переменную  и вывести в консоль браузера
+// let num_1 = prompt("Напишіть перше число з плаваючою точкою");
+// let num_2= prompt("Напишіть друге число з плаваючою точкою");
+// let num_3 = prompt("Напишіть третє число з плаваючою точкою");
+// console.log(Math.round(num_1) + Math.round(num_2) + Math.round(num_3));
+//
+// // 11. - при помощи prompt()  получить 2 целых числа. Привести их к целочисленному типу. Первое число - это число которое будут возводить в степень. Второе число - это число которое является степенью. При помощи Math.pow возвести первое число в степень второго числа.
+// let numer = prompt("Напишіть число, яке потрібно піднести до степеня");
+// let powNumer = prompt("Напишіть число, яке буде степенем");
+// console.log(Math.pow(numer,powNumer));
+
+// // 12. - При помощи оператора опредеоения типа typeof определить типы следующих переменных и вывести их в консоль let a = 100; let b = '100'; let c = true; let d = undefined;
+// let a = 100;
+// let b = '100';
+// let c = true;
+// let d = undefined;
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(typeof c);
+// console.log(typeof d);
+
+// // 13. - Поставьте соответствующий оператор в выражениях что бы получился соответсвующий результат.
+// //     В одинаковых выражениях в задании не использовать два одинаковых оператора.
+// //     Каждое выражение вложить в свою переменную
+console.log(5 < 6) //-> true
+console.log(5 > 6) //-> false
+console.log(5 == 6) //-> false
+console.log(5 >= 6) //-> false
+console.log(10 <= 10) //-> true
+console.log(10 == 10) //-> true
+console.log(10 != 10) //-> false
+console.log(10 !== 10) //-> false
+console.log(10 > 10) //-> false
+console.log(123 === '123') //-> false
+console.log(123 == '123')// -> true
